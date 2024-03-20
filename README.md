@@ -31,7 +31,9 @@ After playing around with it for a while I wanted to animate the cube. I want it
 
 <img width="250" src="https://github.com/yelunl/CssToTheRescue/assets/112821013/56fcdc47-b91e-4831-8c08-615dfb76983d">
 
-Next what I needed to do is use the buttons to control the cube. One of the functionalities I wanted to add was change the path of the cube when clicking on one of the buttons. I brainstormed the logic to make this work a whole day. I wanted to give the bottom screen all the options to change the animation. Using the left and right keys on the d-pad you can choose from many options. When clicking the 'A' button you choose that option to apply it on the cube in the top screen. I didn't know how to make this work so I settled with adding max 2 options in the bottom screen and using the left and right of choose and ply the option to the cube on the top screen. The other buttons on the right you can choose different functionalities to change the cube. 
+Next what I needed to do is use the buttons to control the cube. One of the functionalities I wanted to add was change the path of the cube when clicking on one of the buttons. I brainstormed the logic to make this work a whole day. I want to give the bottom screen all the options to change the animation. Using the left and right keys on the d-pad.
+
+I came up with the idea of adding max 2 options in the bottom screen and using the left and right buttons to choose and play the options to the cube on the top screen. The other buttons on the right you can choose different functionalities to change the cube. 
 
 Whenever one of the buttons on the right are clicked, new checkboxes and labels are replaced on the bottom screen by the old one to make each checkbox do something different. This way each functionality is also saved by the previous click. 
 
